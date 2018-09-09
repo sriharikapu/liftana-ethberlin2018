@@ -25,7 +25,7 @@ Use `postClaim` and `postEvidence` to add claims and evidence to the system. Use
 - `title`: title of the claim
 - `tags`: an array of tags, in bytes32 format such that claims can be added to them
 
-Throws if hash already exists, Throws if not enough funds
+Will revert if hash already exists, Will Revert if not enough funds are included with the request
 
 
 #### `postEvidence(bytes32 claimHash, bytes32 evidenceHash, string title, uint256 sway)`
@@ -37,9 +37,9 @@ Throws if hash already exists, Throws if not enough funds
 - `title`: title of the evidence
 - `sway`: 0, 1, or 2, matching positive (supports claim) negative (is against claim) or neutral (simply increases general understanding) respectively
 
-Throws if not enough funds
+Reverts if not enough funds
 
-#### `withdraw(bytes32 claimHash, bytes32 evidenceHash, string title, uint256 sway)`
+#### `withdraw()`
 
 > Allows user to withdraw extra funds they may have added to account when posting evidence or posting claims
 
