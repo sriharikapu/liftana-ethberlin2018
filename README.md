@@ -4,7 +4,7 @@ This repo contains the open source protocol smart contract code in Solidity prod
 
 The web app was already previously developed and despite further progress made on it during the Hackathon is not to be considered an entry.
 
-During development we have also created a codebase enabling user login via Metamask which we intend to turn into a library and make available to the community as an open source project as soon as possible. 
+During hackathon we have also created a codebase enabling user login via Metamask which we intend to turn into a library and make available to the community as an open source project as soon as possible. 
 
 In the meantime, please accept our submission today as the following:
 * Smart contract code demonstrating progress toward a proof of concept for the Liftana protocol. The roadblocks we have encountered during development have been [1] IPFS is not a fully mature product and is currently unstable for our intended use case which is to store evidence on chain. We would like to contribute more development time toward error handling improvements in the IPFS protocol that would enable us to pinpoint and solve issues faster. [2] Conversion of human readable and meaningful data between UX and Smart Contracts on either ends which we JUST resolved in the 15 remaining minutes before submission aww yiss!
