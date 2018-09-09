@@ -2,7 +2,7 @@
 
 How to interact with smart contract:
 
-Use `postClaim` and `postEvidence` to add claims and evidence to the system. Use `getClaimHash` and `getEvidenceFromClaim` to look at data in the system.
+Use `postClaim` and `postEvidence` to add claims and evidence to the system. Use `getClaimHash` and `getEvidenceFromClaim` among others, to look at data in the system.
 
 
 ## API:
