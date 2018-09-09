@@ -11,7 +11,9 @@ In the meantime, please accept our submission today as the following:
 * Code for a package to enable developers to implement passwordless registration and user login with Metamask. This will need a day or so to convert into a fully functioning Meteor package. 
 
 
-# Smart Contract Guidelines
+# Smart Contract 
+
+The smart contract is at address `0xad39215628fac421ff404f6880343cc0bc69363b` for the purposes of this hackathon.
 
 How to interact with smart contract:
 
