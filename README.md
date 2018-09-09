@@ -6,6 +6,9 @@ The web app was already previously developed and despite further progress made o
 
 During development we have also created a codebase enabling user login via Metamask which we intend to turn into a library and make available to the community as an open source project as soon as possible. 
 
+In the meantime, please accept our submission today as the following:
+* xyz
+
 
 # Smart Contract Guidelines
 
