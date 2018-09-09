@@ -15,7 +15,7 @@ In the meantime, please accept our submission today as the following:
 
 * Demo Application : [https://berlin.liftana.org/]
 * Smart Contract Addrss : `0xad39215628fac421ff404f6880343cc0bc69363b`
-* Google Slide Deck: [https://docs.google.com/presentation/d/1dW0JnJ2V-Rmzk1W0wTgZ8yA6j1vBjsmB03W_-uIK1VE/edit#slide=id.g40dca90171_0_180]
+* Google Slide Deck: [https://docs.google.com/presentation/d/1dW0JnJ2V-Rmzk1W0wTgZ8yA6j1vBjsmB03W_-uIK1VE/edit]
 * GitHub Link [https://github.com/liftana/liftana-ethberlin2018/]
 
 # Smart Contract 
