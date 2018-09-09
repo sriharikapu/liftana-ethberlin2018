@@ -88,6 +88,7 @@ returns
 - `string`: title of claim
 - `uint256`: date claim was submitted
 - `uint256`: number of pieces of evidence submitted to claim
+- `bytes32[]`: array of tag information 
 
 #### `getEvidenceFromClaim(bytes32 claimHash, uint256 evidenceIndex)`
 
