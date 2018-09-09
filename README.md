@@ -83,8 +83,8 @@ returns
 > gets important claim information for use
 
 - `claimHash`: hash of claim document stored on ipfs, used as id of claim
-returns
 
+returns
 - `string`: title of claim
 - `uint256`: date claim was submitted
 - `uint256`: number of pieces of evidence submitted to claim
@@ -122,6 +122,7 @@ returns
 > gets the number of claims with a given tag
 
 - `tagName`: name of tag
+
 returns
 - `uint256`: number of tags
 
@@ -131,6 +132,7 @@ returns
 
 - `tagName`: name of tag
 - `index`: index to find claim
+
 returns
 - `bytes32`: ipfs hash of claim
 
@@ -139,5 +141,4 @@ returns
 > gets address of owner of contract
 
 returns
-
 - `address`: address of owner of contract
