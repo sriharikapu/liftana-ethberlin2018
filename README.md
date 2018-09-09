@@ -1,8 +1,13 @@
 # ETHBerlin Hackathon Repo for Liftana
 
+This repo contains the open source protocol smart contract code in Solidity produced from scratch entirely in the Hackathon. The SuperBlocks.com IDE was used heavily in the creation of this smart contract and we are incredibly grateful to our mentors and new friends for guiding and advising us through our first Hackathon as a team.
+
+The web app was already previously developed and despite further progress made on it during the Hackathon is not to be considered an entry.
+
+During development we have also created a codebase enabling user login via Metamask which we intend to turn into a library and make available to the community as an open source project as soon as possible. 
 
 
-# Smart Contract
+# Smart Contract Guidelines
 
 How to interact with smart contract:
 
