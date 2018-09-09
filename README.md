@@ -7,7 +7,9 @@ The web app was already previously developed and despite further progress made o
 During development we have also created a codebase enabling user login via Metamask which we intend to turn into a library and make available to the community as an open source project as soon as possible. 
 
 In the meantime, please accept our submission today as the following:
-* xyz
+* Smart contract code demonstrating progress toward a proof of concept for the Liftana protocol. 
+** The single biggest roadblock we have encountered during development has been that IPFS is not a fully mature product and is currently unstable for our intended use case which is to store evidence on chain. We would like to contribute more development time toward error handling improvements in the IPFS protocol that would enable us to pinpoint and solve issues faster.
+* 
 
 
 # Smart Contract Guidelines
