@@ -1,7 +1,5 @@
 pragma solidity ^0.4.21;
 
-
-//rename before on a real system
 contract MyContract {
     mapping (bytes32 => Claim) claimMap;
     bytes32[] claimKeyArray;
@@ -10,10 +8,10 @@ contract MyContract {
 
     address public owner = msg.sender;
     
-    mapping (address => uint) refundMap;
-
     uint public claimCost;
     uint public evidenceCost;
+    
+    mapping (address => uint) refundMap;
 
     enum EvidenceResolution {  Neutral, Positive, Negative }
     
@@ -54,7 +52,6 @@ contract MyContract {
         bytes32 claimHash
     );
 
-    //turn to mixin
     function postClaim(bytes32 bodyHash, string title, bytes32[] tags) 
         public
         payable
@@ -62,8 +59,7 @@ contract MyContract {
         require(claimMap[bodyHash].date == 0);
         
         uint tagGasUse = 0;
-        
-
+  
         for(uint i = 0; i < tags.length; i++){
             if(claimTags[tags[i]].length == 0){
                 tagGasUse += 66000;
@@ -103,10 +99,7 @@ contract MyContract {
         }
     }
 
-    //todo add fallback function ??? not sure if I should
     //using withdraw pattern
-    //todod this might be too specific
-    //todo difference between transfer and spend
     function withdraw()
         public
     {
@@ -128,9 +121,8 @@ contract MyContract {
             refundMap[msg.sender] = refund;
         }
 
-        //need to do checks for paying to put content on the system
         Evidence memory newEvidence = Evidence(evidenceHash, now, EvidenceResolution(resolution));
-        //add check that claimMap exists
+
         claimMap[claimHash].evidenceList.push(newEvidence);
 
         emit EventPost(evidenceHash);    
@@ -138,7 +130,7 @@ contract MyContract {
 
     function getClaimLength()
         public
-        constant //change to view
+        constant
         returns (uint)
     {
         return claimKeyArray.length;
@@ -165,7 +157,6 @@ contract MyContract {
         constant
         returns (bytes32, uint)
     {
-        //todo how costly is this vanity variable? does the compiler automatically deal with it?
         Evidence memory thisEvidence = claimMap[claimHash].evidenceList[evidenceIndex];
         return (thisEvidence.evidenceHash, thisEvidence.date);
     }
