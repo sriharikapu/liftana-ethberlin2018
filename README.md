@@ -1,3 +1,7 @@
+# ETHBerlin Hackathon Repo for Liftana
+
+
+
 # Smart Contract
 
 How to interact with smart contract:
