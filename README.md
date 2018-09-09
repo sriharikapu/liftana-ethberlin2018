@@ -13,7 +13,7 @@ In the meantime, please accept our submission today as the following:
 
 # Links
 
-* Demo Application : [https://berlin.liftana.org/] please use rinkeby
+* Demo Application : [https://berlin.liftana.org/] please use rinkeby. click "start" to login via metamask by signing transaction, once confirmed you can add claim. 
 * Smart Contract Address : `0xad39215628fac421ff404f6880343cc0bc69363b`
 * Google Slide Deck: [https://docs.google.com/presentation/d/1dW0JnJ2V-Rmzk1W0wTgZ8yA6j1vBjsmB03W_-uIK1VE/edit]
 * GitHub Link [https://github.com/liftana/liftana-ethberlin2018/]
